@@ -17,6 +17,7 @@ metadata:
     argocd/app-selector: tssc/gitops=demo-konflux-test-2
     backstage.io/kubernetes-id: demo-konflux-test-2 
     backstage.io/kubernetes-namespace: default-tenant
+    backstage.io/kubernetes-label-selector: appstudio.openshift.io/component=demo-konflux-test-2
     backstage.io/techdocs-ref: dir:. 
     janus-idp.io/tekton: demo-konflux-test-2
     quay.io/repository-slug: rhdh/demo-konflux-test-2
